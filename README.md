@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @anastasiakezia
 - 👀 I’m interested in Web and Android Developer
-- 🌱 I’m currently learning Laravel
+- 🌱 I’m currently learning Laravel and Kotlin
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
