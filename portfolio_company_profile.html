@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Project - Secretary</title>
+    <link rel="stylesheet" href="src/style.css" />
+  <body>
+    <div class="container">
+      <img
+        src="dist/img/portfolio/company_profile_1.PNG"
+        class="preview-img"
+        id="preview-img"
+        alt="Secretary 1"
+      />
+      <div class="galleries_secretary">
+        <img
+          class="img_dashboard"
+          src="dist/img/portfolio/company_profile_1.PNG"
+          onclick="imgPreview(this.src)"
+          alt=""
+        />
+        <img
+          src="dist/img/portfolio/company_profile_2.PNG"
+          onclick="imgPreview(this.src)"
+          alt=""
+        />
+        <img
+          src="dist/img/portfolio/company_profile_3.PNG"
+          onclick="imgPreview(this.src)"
+          alt=""
+        />
+        <img
+          src="dist/img/portfolio/company_profile_4.PNG"
+          onclick="imgPreview(this.src)"
+          alt=""
+        />
+        <img
+          src="dist/img/portfolio/company_profile_5.PNG"
+          onclick="imgPreview(this.src)"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="container">
+      <a href="index.html#gallery">
+        Back
+      </a>
+    </div>
+    <script>
+      const imgPreview = (src) => {
+        document.getElementById("preview-img").src = src;
+      };
+    </script>
+  </body>
+</html>

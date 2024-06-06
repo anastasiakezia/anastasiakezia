@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0f172a;
+}
+
+a {
+  background-color: #db2777;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container a {
+  margin-left: 50rem;
+}
+
+.container {
+  padding: 30px 100px;
+}
+
+img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.preview-img {
+  margin-bottom: 20px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.galleries_secretary {
+  display: flex;
+}
+
+.galleries_secretary img {
+  width: 15%;
+  height: 15%;
+  cursor: pointer;
+}
